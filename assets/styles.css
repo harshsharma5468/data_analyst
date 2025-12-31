@@ -1,0 +1,82 @@
+/* Main app styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+}
+
+.sidebar .sidebar-content .block-container {
+    padding: 1rem;
+}
+
+/* Header styling */
+.header {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1rem;
+}
+
+/* Card styling */
+.stCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #4f8bf9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+
+.stButton>button:hover {
+    background-color: #3a76e0;
+}
+
+/* Dataframe styling */
+.stDataFrame {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+/* Plotly chart styling */
+.plotly-chart {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+/* Metrics styling */
+.stMetric {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 1rem;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #f0f2f6;
+    border-radius: 4px 4px 0 0;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #4f8bf9;
+    color: white;
+}

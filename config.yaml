@@ -1,0 +1,3 @@
+theme: "light"
+sample_data_path: "data/sample.csv"
+random_state: 42
